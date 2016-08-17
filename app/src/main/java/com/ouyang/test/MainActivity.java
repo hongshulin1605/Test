@@ -16,10 +16,9 @@ public class MainActivity extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.btn);
         TextView tv = (TextView) findViewById(R.id.tv);
 
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 20; j++) {
-                Log.e("print", "onCreate: " + j);
-            }
-        }
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
     }
 }
