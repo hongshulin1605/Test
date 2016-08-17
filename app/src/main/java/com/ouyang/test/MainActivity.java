@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button) findViewById(R.id.btn);
         TextView tv = (TextView) findViewById(R.id.tv);
-
+//
         Log.e("print", "onCreate: branch");
         Log.e("print", "onCreate: branch");
         Log.e("print", "onCreate: branch");
