@@ -20,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Log.e("print", "onCreate: " + 55);
         Log.e("print", "onCreate: " + 55);
 
-        Log.e("print", "onCreate: " + "home");
-        Log.e("print", "onCreate: " + "home");
-        Log.e("print", "onCreate: " + "home");
-        Log.e("print", "onCreate: " + "home");
+        for (int i = 0; i < 10; i++) {
+            Log.e("print", "onCreate: 222222");
+        }
 
     }
 }
