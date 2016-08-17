@@ -2,6 +2,7 @@ package com.ouyang.test;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -14,5 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button) findViewById(R.id.btn);
         TextView tv = (TextView) findViewById(R.id.tv);
+
+        Log.e("print", "onCreate: " + 11111);
+        Log.e("print", "onCreate: " + 11111);
+        Log.e("print", "onCreate: " + 11111);
+        Log.e("print", "onCreate: " + 11111);
+        Log.e("print", "onCreate: " + 11111);
     }
 }
