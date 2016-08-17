@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.tv);
 
 //
+        //
         Log.e("print", "onCreate: " + 444444);
         Log.e("print", "onCreate: " + 444444);
         Log.e("print", "onCreate: " + 444444);
